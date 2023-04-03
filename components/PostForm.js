@@ -45,11 +45,9 @@ export default function PostForm() {
       </button>
       <br></br>
       <div>
-        <>
-          {msgs.map((m, k) => (
-            <p>{m.msg}</p>
-          ))}
-        </>
+        {msgs.map((m, k) => (
+          <p key={k}>{m.msg}</p>
+        ))}
       </div>
     </>
   );
