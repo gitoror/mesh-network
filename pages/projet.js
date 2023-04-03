@@ -28,6 +28,7 @@ export default function Projet() {
               fill
               objectFit="contain"
               quality="100"
+              alt="Starlink"
             />
           </div>
           <p>
@@ -39,7 +40,13 @@ export default function Projet() {
         <h2>Test de performance de l'antenne du Techlab (nPerf)</h2>
         <br></br>
         <div className={styles.nperf}>
-          <Image src="/nperf.PNG" fill objectFit="contain" quality="100" />
+          <Image
+            src="/nperf.PNG"
+            fill
+            objectFit="contain"
+            quality="100"
+            alt="nPerf"
+          />
         </div>
         <br></br>
         <h2>Réseau Mesh Wifi Asus</h2>
@@ -52,11 +59,23 @@ export default function Projet() {
         <br></br>
         <div className={styles.asus_container}>
           <div className={styles.asus}>
-            <Image src="/asusmesh.PNG" fill objectFit="contain" quality="100" />
+            <Image
+              src="/asusmesh.PNG"
+              fill
+              objectFit="contain"
+              quality="100"
+              alt="asus"
+            />
           </div>
 
           <div className={styles.asus}>
-            <Image src="/relai.png" fill objectFit="contain" quality="100" />
+            <Image
+              src="/relai.png"
+              fill
+              objectFit="contain"
+              quality="100"
+              alt="relai"
+            />
           </div>
         </div>
         <br></br>
@@ -71,7 +90,13 @@ export default function Projet() {
         <br></br>
         <div className={styles.rasp_container}>
           <div className={styles.rasp}>
-            <Image src="/rasp.jpg" fill objectFit="contain" quality="100" />
+            <Image
+              src="/rasp.jpg"
+              fill
+              objectFit="contain"
+              quality="100"
+              alt="raspberryPi"
+            />
           </div>
           <div className={styles.rasp_logo}>
             <Image
@@ -79,6 +104,7 @@ export default function Projet() {
               fill
               objectFit="contain"
               quality="100"
+              alt="raspberryPi logo"
             />
           </div>
         </div>
