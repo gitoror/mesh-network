@@ -52,7 +52,7 @@ export default function Navbar() {
             </li>
           </ul>
           <div className={styles.github}>
-            <a href="" target="_blank">
+            <a href="https://github.com/gitoror/mesh-network" target="_blank">
               <span>
                 <Image
                   src="/github-mark.png"
