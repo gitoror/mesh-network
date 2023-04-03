@@ -1,11 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Le site est déployé sur : [Réseaux Mesh](https://mesh-network-nine.vercel.app)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+J'ai utilisé un projet Next.js.
+Vous pouvez tester le site en local en créant un projet next `npm create-next-app` (installe `node_modules`).  
+Prenez ce fichier `node_modules` et collez le dans le projet github cloné.
+Enfin : `npm run dev`
