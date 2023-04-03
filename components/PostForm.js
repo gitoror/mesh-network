@@ -46,7 +46,7 @@ export default function PostForm() {
       <br></br>
       <div>
         <>
-          {msgs.map((m) => (
+          {msgs.map((m, k) => (
             <p>{m.msg}</p>
           ))}
         </>
