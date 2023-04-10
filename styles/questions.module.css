@@ -1,0 +1,20 @@
+.like {
+  border: 0px solid #ffff;
+  border-radius: 5px;
+  background-color: white;
+  resize: none;
+  outline: none;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+}
+
+.like:active {
+  opacity: 0.7;
+}
+
+.like:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  color: rgb(125, 135, 135);
+}
