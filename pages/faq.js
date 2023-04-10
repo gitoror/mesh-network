@@ -2,6 +2,7 @@ import Head from "next/head";
 import Main from "@/components/main.js";
 import styles from "@/styles/faq.module.css";
 import PostForm from "@/components/PostForm";
+import Questions from "@/components/Questions";
 
 export default function FAQ() {
   return (
@@ -10,10 +11,9 @@ export default function FAQ() {
         <title>FAQ - Réseaux Mesh</title>
       </Head>
       <Main>
-        <h2>Une question ?</h2>
-        <br></br>
         <PostForm />
         <br></br>
+        <Questions />
       </Main>
     </>
   );
