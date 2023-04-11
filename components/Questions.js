@@ -17,7 +17,7 @@ export default function Questions() {
   const [quests, setQuests] = useState([]);
   useEffect(() => {
     getQuests();
-  }, [quests]);
+  }, [supabase]);
 
   async function getQuests() {
     const { data, error } = await supabase
