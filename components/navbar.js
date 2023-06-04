@@ -31,6 +31,9 @@ export default function Navbar() {
           </h1>
           <ul>
             <li>
+              <LinkItem href="/temperature">Température</LinkItem>
+            </li>
+            <li>
               <LinkItem href="/concept">Concept</LinkItem>
             </li>
             <li>
