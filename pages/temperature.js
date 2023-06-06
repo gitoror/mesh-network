@@ -77,9 +77,11 @@ export default function Concept() {
                   Localisation
                 </th>
                 <th style={{ padding: "20px", align: "center" }}>
-                  Température
+                  Température (°C)
                 </th>
-                <th style={{ padding: "20px", align: "center" }}>Humidité</th>
+                <th style={{ padding: "20px", align: "center" }}>
+                  Humidité (%)
+                </th>
                 <th style={{ padding: "20px", align: "center" }}>
                   Dernière mise à jour
                 </th>
