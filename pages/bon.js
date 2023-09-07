@@ -1,4 +1,4 @@
-export default async function Test() {
+export default function Test() {
   const day = new Date();
   console.log(day);
   return (
