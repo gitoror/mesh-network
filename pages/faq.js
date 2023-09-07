@@ -5,6 +5,8 @@ import PostForm from "@/components/PostForm";
 import Questions from "@/components/Questions";
 
 export default function FAQ() {
+  const date = new Date();
+  console.log("date ! ! ", date);
   return (
     <>
       <Head>
